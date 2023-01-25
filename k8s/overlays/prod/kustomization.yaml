@@ -8,8 +8,8 @@ namespace: sample-blog
 
 images:
 - name: image-registry.openshift-image-registry.svc:5000/sample-blog/django 
-  newName: default-route-openshift-image-registry.apps.aws-cluster-01.sandbox1580.opentlc.com/sample-blog/django
+  newName: image-registry.openshift-image-registry.svc:5000/sample-blog/django 
   newTag: latest
 - name: image-registry.openshift-image-registry.svc:5000/sample-blog/nginx
-  newName: default-route-openshift-image-registry.apps.aws-cluster-01.sandbox1580.opentlc.com/sample-blog/nginx
+  newName: image-registry.openshift-image-registry.svc:5000/sample-blog/nginx 
   newTag: latest
